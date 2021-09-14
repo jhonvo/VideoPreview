@@ -7,4 +7,5 @@ function mouseplay(element){
 
 function mousestop(element){
     element.pause();
+    vid.currentTime = 0;
 }
