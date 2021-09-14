@@ -2,10 +2,13 @@ console.log("page loaded...");
 
 function mouseplay(element){
     // console.log(element);
-    element.play();    
+    element.play();  
+    element.controls = 0;  
 }
 
 function mousestop(element){
     element.pause();
-    vid.currentTime = 0;
+    element.currentTime = 0;
+    element.controls = true;
+
 }
